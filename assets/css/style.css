@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background: url('../../images/light-grey-terrazzo.png');
+    line-height: 30px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #4aaaa5;
+    padding-bottom: 25px;
+    border-bottom: 3px solid #cccccc;
+    margin-bottom: 25px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background: #ffffff;
+}
+
+#topheader {
+    max-width: 100%;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    margin: 0 0 30px;
+    overflow: hidden;
+    position: auto;
+}
+
+#bigname {
+    background: #4aaaa5;
+    width: 250px;
+    height: 90px;
+    float: left;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 90px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#bigname:hover {
+    color: #666666;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    border-left: 1px solid #cccccc;
+    margin-left: 15px;
+    display: inline-block;
+    padding-left: 15px;
+    line-height: 18px;
+}
+
+nav a:hover {
+    color: #4aaaa5;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.content-section {
+    padding: 25px;
+    margin: 0 0 30px 0;
+    width: 100%;
+    max-width: 960px;
+    float: left;
+    background: #ffffff;
+    margin-bottom: 150px;
+    min-height: 100%;
+}
+
+.mypicture {
+    width: 200px;
+    height: auto;
+    margin-right: 25px;
+    display: block;
+    float: left;
+}
+
+footer {
+    background: #666666;
+    color: #ffffff;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-size: 12px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.container:last-child {
+    background: #666666;
+}
+
+.work {
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    background: #4aaaa5;
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+h3:hover {
+    color: #666666;
+}
+
+#name, #email, #message {
+    width: 100%;
+    max-width: 960px;
+}
+
+#name, #email {
+    padding: 7px;
+}
+
+textarea {
+    height: 160px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 6px 19px 6px 19px;
+    border: none;
+}
+
+#submit:hover {
+    color: #666666;
+}
+
+.work:nth-child(3) {
+    margin-right: 250px;
+}
+
+.work:nth-child(5) {
+    margin-right: 250px;
+}
+
+@media screen and (max-width: 980px) {
+    .content-section {
+        width: 620px;
+    }
+
+    .work:nth-child(3) {
+        margin-right: 15px;
+    }
+
+    .work:nth-child(5) {
+        margin-right: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .work {
+        max-width: 100%;
+        height: auto;    
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .content-section {
+        max-width: 100%;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .work:nth-child(3) {
+        margin-right: 0;
+        margin-left: 13px;
+    }
+
+    .work:nth-child(5) {
+        margin-right: 0;
+        margin-left: 13px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .content-section {
+        width: 100%;
+    }
+    
+    #bigname {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    #topheader {
+        width: 100%;
+        display: inline-block;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    nav a:first-child {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .work {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .work:nth-child(3) {
+        margin-right: 0;
+        margin-left: 0px;
+    }
+
+    .work:nth-child(5) {
+        margin-right: 0;
+        margin-left: 0px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}}

@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+hr {
+    margin: 5px;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: #4db8ff;
+    overflow: hidden;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/*Change the color of links on hover*/
+.topnav a:hover {
+    background-color: #333333;
+    color: #92c6f4;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.topnav-right {
+    float: right;
+    padding-top: 5px;
+}
+
+.active {
+    font-size: 57px;
+    margin: 0 auto;
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    color: #92c6f4;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+img {
+    float: left;
+    padding: 15px;
+    margin:0 auto;
+}
+
+.main-text {
+    line-height: 24px;
+}
+
+.wrapper {
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: 6px;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4db8ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #333333;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+footer {
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4db8ff;
+    color: #f2f2f2;
+    text-align: center;
+    border-top: solid 6px #333333;
+    border-bottom: solid 6px #333333;
+}
